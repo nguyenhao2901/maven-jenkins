@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-13T04:39:20Z" name="Suite" finished-at="2023-06-13T04:39:38Z" duration-ms="18203">
+    <groups>
+    </groups>
+    <test started-at="2023-06-13T04:39:20Z" name="Test on Chrome" finished-at="2023-06-13T04:39:38Z" duration-ms="18203">
+      <class name="nopcommerce.user.MyAccount">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:nopcommerce.user.MyAccount@a2431d0]" started-at="2023-06-13T04:39:27Z" name="beforeClass" finished-at="2023-06-13T04:39:35Z" duration-ms="8377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="MyAccount_01_Update_Customer_Info(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.MyAccount@a2431d0]" started-at="2023-06-13T04:39:35Z" name="MyAccount_01_Update_Customer_Info" finished-at="2023-06-13T04:39:38Z" duration-ms="2636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.MyAccount.MyAccount_01_Update_Customer_Info(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount_01_Update_Customer_Info -->
+        <test-method signature="MyAccount_02_Add_Address_Info()[pri:0, instance:nopcommerce.user.MyAccount@a2431d0]" started-at="2023-06-13T04:39:38Z" name="MyAccount_02_Add_Address_Info" finished-at="2023-06-13T04:39:38Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount_02_Add_Address_Info -->
+        <test-method signature="MyAccount_03_Change_Password()[pri:0, instance:nopcommerce.user.MyAccount@a2431d0]" started-at="2023-06-13T04:39:38Z" name="MyAccount_03_Change_Password" finished-at="2023-06-13T04:39:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount_03_Change_Password -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:nopcommerce.user.MyAccount@a2431d0]" started-at="2023-06-13T04:39:38Z" name="afterClass" finished-at="2023-06-13T04:39:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method signature="MyAccount_04_My_Product_Review()[pri:0, instance:nopcommerce.user.MyAccount@a2431d0]" started-at="2023-06-13T04:39:38Z" name="MyAccount_04_My_Product_Review" finished-at="2023-06-13T04:39:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAccount_04_My_Product_Review -->
+      </class> <!-- nopcommerce.user.MyAccount -->
+      <class name="commons.Common_01_Register_Login_Global">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:commons.Common_01_Register_Login_Global@31e5415e]" started-at="2023-06-13T04:39:20Z" name="beforeTest" finished-at="2023-06-13T04:39:27Z" duration-ms="7182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:commons.Common_01_Register_Login_Global@31e5415e]" started-at="2023-06-13T04:39:38Z" name="afterTest" finished-at="2023-06-13T04:39:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- commons.Common_01_Register_Login_Global -->
+    </test> <!-- Test on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

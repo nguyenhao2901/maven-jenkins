@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<listeners>
+		<listener class-name="reportConfigs.ExtentReportListenerV5" />
+
+	</listeners>
+	<parameter name="browserName" value="chrome" />
+	<test name="Test on Chrome">
+		<classes>
+			<class name="commons.Common_01_Register_Login_Global" />
+			<class name="nopcommerce.user.MyAccount" />
+		</classes>
+	</test>
+</suite>
